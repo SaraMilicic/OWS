@@ -1,0 +1,243 @@
+/*BOJE
+najsvijetlija boja #FFFAF0
+smedja #33302D
+zelena #6DB33F
+crvena #B7380F
+*/
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Lato', sans-serif;
+*/
+
+.row { background-color: #FFFAF0; }
+.gray-boxes .column {   margin-bottom: 20px; }
+.column img { float: left; margin-right: 20px; height: 100%; }
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', helvetica, sans-serif;;
+	color: 202822	;
+	background-color: #FFFAF0;
+}
+
+h2 {
+	margin-left: 10px;
+	font-size: 1.2em;
+	color: #202822;
+}
+
+h3 {
+	color: #6DB33F;
+}
+
+.naslov {
+	font-size: 1.7em;
+	color: #202822;
+}
+
+.aktivnaStranica {
+	border-bottom: 3px solid #6DB33F;
+}
+
+.maliNaslov {
+	/*border-top: 2px solid #C2DA1C;*/
+}
+
+.slikaIkone {
+	height: 80%;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 5%;
+}
+
+.ikoneTekst {
+	text-align: center;
+	font-weight: bold;
+	color: #33302D;
+}
+
+.slikaProizvoda {
+	height: 220px;
+	width: 100%;
+}
+
+.opciPodaci {
+	color: #FFFAF0;
+}
+
+.header {
+	height: 140px;
+	width: 100%;
+}
+.site-header{
+	background-color: #FFFAF0;
+	color: #33302D;
+	height: 140px;
+}
+
+.logo {
+	margin: 0 auto;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 6em;
+}
+
+.intro {
+	background: url(images/grass-1205263.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 460px;
+}
+
+.intro-tekst {
+	font-size: 1.5em;
+	width: 500px;
+	background-color: rgba(51, 48, 45, 0.9);
+	opacity: 50%;
+	color: #FFFAF0;
+	overflow: hidden;
+	padding: 20px;
+	margin: 115px auto;
+	min-height: 230px;
+	text-align: center;	
+}
+
+.button {
+	color: #FFFAF0;
+	padding: 15px 5px 15px 15px;
+	text-decoration: none;
+	/*border-bottom: 1px solid #202822;*/
+	/*display: block;*/
+	vertical-align: middle;
+	display: inline;
+	background-color: #6DB33F;
+	font-size: 1em;
+	/*border: 3px solid #0091D9;*/
+}
+/*
+.button a {
+	padding: 15px 5px 15px 15px;
+	background-color: #6DB33F;
+	vertical-align: middle;
+	display: inline;
+	font-size: 1em;
+}*/
+
+.button :hover {
+	color: #33302D;
+}
+
+.button a:visited {
+	color: #FFFAF0;
+}
+
+.button a:active {
+	color: #33302D;
+}
+
+.button1 {
+	color: #FFFAF0;
+	padding: 10px 10px 10px 10px;
+	text-decoration: none;
+	/*border-bottom: 1px solid #202822;*/
+	/*display: block;*/
+	vertical-align: middle;
+	display: inline;
+	background-color: #6DB33F;
+	font-size: 1em;
+	/*border: 3px solid #0091D9;*/
+}
+
+.main-navigation {
+	float: right;
+	padding-top: 46px;
+	padding-bottom: 20px;
+}
+
+.main-navigation ul {
+	margin: 0;
+	padding: 0;
+	/*micemo razmake*/
+	font-size: 0;
+}
+
+.main-navigation li {
+	display: inline-block;
+	/*micemo razmake*/
+	font-size: 19px;
+	/*positin:relativa da bi bilo velicine linka iznad*/
+	position: relative;
+}
+
+.main-navigation a {
+	color: #33302D;
+	padding: 10px 10px;
+	margin-left: 10px;
+	text-decoration: none;
+	display: block;
+	transition: background 100ms, transform 60ms
+	transform: scale(1);
+	background-color: #FFFAF0;
+}
+
+.main-navigation a:hover {
+	color: #6DB33F;
+	border-bottom: 3px solid #33302D;
+}
+
+.main-navigation a:active {
+	transform: scale(0.9);
+}
+
+.main-navigation li ul {
+	position: absolute;
+	width: 200px;
+	opacity: 0;
+	visibility: hidden;
+	/*transform: translateY(20px);*/
+	transition: 500ms, visibility 1000ms, transform 100ms;
+}
+
+.main-navigation li:hover ul {
+	opacity: 1;
+	transform: translateY(0px);
+	visibility: visible;
+}
+
+.main-navigation li li {
+	display: block;
+}
+
+.brisi {
+	clear: both;
+}
+
+footer {
+		min-height: 140px;
+        float:left;
+		padding:15px 0;
+		margin: 0 auto;
+		width:100%;
+		background-color: #6DB33F;
+}
+
+.input {
+	width: 80%;
+}
+
+.forget {
+	text-decoration: underline;
+}
+
+.pure-checkbox #id input[type="checkbox"] {
+	background-color: red;
+}
+
+.input input[type="textbox"]{backgroud-color:red;}

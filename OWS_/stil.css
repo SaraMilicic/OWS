@@ -1,0 +1,514 @@
+/*BOJE
+najsvijetlija boja #FFFAF0
+smedja #33302D
+zelena #6DB33F
+crvena #B7380F
+
+alternativna smeđa
+#352411
+*/
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Lato', sans-serif;
+*/
+
+
+/*
+
+
+font-family: 'Yanone Kaffeesatz', sans-serif;
+--> tiskana slova su lijepa
+
+font-family: 'Amatic SC', cursive;
+---> super fonr, ali ima samo tiskana slova 
+
+
+font-family: 'Berkshire Swash', cursive;
+---> malo prelud
+
+font-family: 'Oregano', cursive;
+--> ne sviđa mi se
+
+font-family: 'Andika', sans-serif;
+--> nije mi bas nes
+
+font-family: 'Josefin Sans', sans-serif;
+-->dobar, paše uz amatic
+
+*/
+
+.row { background-color: #FFFAF0;}
+.gray-boxes .column {   margin-bottom: 20px;}
+.column img { float: left; margin-right: 20px; height: 100%; 	}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Amatic SC', helvetica, sans-serif;
+	/*font-weight: 200;*/
+	color: 202822	;
+	background-color: #FFFAF0;
+}
+
+h2 {
+	margin-left: 10px;
+	font-size: 1.2em;
+	color: #202822;
+}
+
+h3 {
+	color: #6DB33F;
+}
+
+.naslov {
+	margin-top: 40px;
+	font-size: 1.7em;
+	color: #202822;
+	margin-bottom: 10px;
+}
+
+.aktivnaStranica {
+	border-bottom: 3px solid #6DB33F;
+}
+
+.maliNaslov {
+	/*border-top: 2px solid #C2DA1C;*/
+}
+
+.slikaIkone {
+	height: 50%;
+	width: 50%;
+	border: 1px solid red;
+	margin-top: 5%;
+	float: left;
+
+}
+
+.ikoneTekst {
+	text-align: left;
+	font-weight: bold;
+	color: #33302D;
+}
+
+.slikaProizvoda {
+
+	width: 50%;
+
+
+}
+
+.opisProizvoda {
+	display: block;
+	margin-top:100%;
+	font-size: 1.3em;
+	font-family: 'Josefin Sans';
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+.opciPodaci {
+	color: #FFFAF0;
+	font-family: 'Josefin Sans';
+	line-height: 1.5;
+	font-size: 1.3em;
+}
+
+.header {
+	
+	height: 140px;
+	width: 100%;
+}
+.site-header{
+
+	background-color: #FFFAF0;
+	color: #33302D;
+	height: 140px;
+}
+
+.logo{
+
+	color: #33302D;
+	margin: 0 auto;
+	margin-left: 9px;	
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-size: 6em;
+}
+
+.logo a:link {
+	text-decoration: none;
+	color: #33302D;
+}
+.logo a:visited {
+	text-decoration: none;
+	color: #33302D;
+}
+.logo a:hover {
+	text-decoration: none;
+	color: #33302D;
+}
+.logo a:active {
+	text-decoration: none;
+	color: #33302D;
+}
+
+.intro {
+	margin-top: 76px;
+	background: url(images/grass-1205263.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 460px;
+
+}
+
+.intro-tekst {
+	font-size: 1.5em;
+	width: 500px;
+	background-color: rgba(51, 48, 45, 0.9);
+	opacity: 50%;
+	color: #FFFAF0;
+	overflow: hidden;
+	padding: 20px;
+	margin: 115px auto;
+	min-height: 230px;
+	text-align: center;	
+
+}
+
+
+.intro2 {
+	background: url(images/grass-1205263.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 460px;
+	margin-top: 20px;
+
+}
+
+.button {
+	color: #33302D;
+	padding: 15px 5px 15px 15px;
+	text-decoration: none;
+	/*border-bottom: 1px solid #202822;*/
+	/*display: block;*/
+	vertical-align: middle;
+	display: inline;
+	background-color: #FFFAF0;
+	font-size: 1.3em;
+
+	/*border: 3px solid #0091D9;*/
+}
+/*
+.button a {
+	padding: 15px 5px 15px 15px;
+	background-color: #6DB33F;
+	vertical-align: middle;
+	display: inline;
+	font-size: 1em;
+}*/
+
+.button :hover {
+	color: #33302D;
+}
+
+.button a:visited {
+	color: #FFFAF0;
+}
+
+.button a:active {
+	color: #33302D;
+}
+
+.button1 {
+	color: #FFFAF0;
+	padding: 10px 10px 10px 10px;
+	text-decoration: none;
+	/*border-bottom: 1px solid #202822;*/
+	/*display: block;*/
+	vertical-align: middle;
+	display: inline-block;
+	background-color: #6DB33F;
+	font-size: 1em;
+	/*border: 3px solid #0091D9;*/
+	margin-top: 20px;
+	font-family: 'Josefin Sans';
+}
+
+
+
+.button2 {
+	color: #FFFAF0;
+	padding: 10px 5px 10px 10px;
+	text-decoration: none;
+	/*border-bottom: 1px solid #202822;*/
+	/*display: block;*/
+	vertical-align: middle;
+	display: inline-block;
+	background-color: #6DB33F;
+	font-size: 1em;
+	/*border: 3px solid #0091D9;*/
+
+	
+	font-family: 'Josefin Sans';
+}
+
+.nav-container {
+	margin: 0 auto;
+	width: 100%;
+	background-color: red;
+}
+
+
+
+
+
+
+
+
+.main-navigation2 {
+	margin-top: 45px;
+	float: right;
+
+	
+	/*
+	padding-top: 46px;
+	padding-bottom: 20px;“
+	*/
+}
+
+.main-navigation2 ul {
+	margin-top: 0;
+	padding: 0;
+	/*micemo razmake*/
+	font-size: 0;
+}
+
+.main-navigation2 li {
+	font-weight: bold;
+	font-size: 30px;
+	display: inline-block;
+	/*micemo razmake*/
+	
+	/*positin:relativa da bi bilo velicine linka iznad*/
+	position: relative;
+}
+
+.main-navigation2 a {
+
+	color: #33302D;
+	
+
+	/* maknula privremeno
+	padding: 10px 10px;
+	
+
+	margin-left: 10px;
+	*/
+
+	padding: 10px 15px;
+	text-decoration: none;
+	display: block;
+	transition: background 100ms, transform 60ms
+	transform: scale(1);
+	background-color: #FFFAF0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-navigation {
+	width: 100%;
+
+
+	float: left;
+
+	
+	/*
+	padding-top: 46px;
+	padding-bottom: 20px;“
+	*/
+
+}
+
+.main-navigation ul {
+	margin-top: 0;
+	padding: 0;
+	/*micemo razmake*/
+	font-size: 0;
+}
+
+.main-navigation li {
+	font-weight: bold;
+	font-size: 30px;
+	display: inline-block;
+	/*micemo razmake*/
+	
+	/*positin:relativa da bi bilo velicine linka iznad*/
+	position: relative;
+}
+
+.main-navigation a {
+
+	color: #33302D;
+	
+
+	/* maknula privremeno
+	padding: 10px 10px;
+	
+
+	margin-left: 10px;
+	*/
+
+	padding: 10px 12px;
+	text-decoration: none;
+	display: block;
+	transition: background 100ms, transform 60ms
+	transform: scale(1);
+	background-color: #FFFAF0;
+}
+
+.main-navigation a:hover {
+	color: #6DB33F;
+	
+
+	/*border-bottom: 3px solid #33302D;*/
+}
+
+.main-navigation a:active {
+	transform: scale(0.9);
+}
+
+.main-navigation li ul {
+	position: absolute;
+	width: 200px;
+	opacity: 0;
+	visibility: hidden;
+	/*transform: translateY(20px);*/
+	transition: 500ms, visibility 1000ms, transform 100ms;
+
+
+
+
+	
+
+}
+
+.main-navigation li:hover ul {
+	opacity: 1;
+	transform: translateY(0px);
+	visibility: visible;
+}
+
+.main-navigation li li {
+	display: block;
+}
+
+.brisi {
+	clear: both;
+}
+
+footer {
+		min-height: 140px;
+        float:left;
+		padding:15px 0;
+		margin: 0 auto;
+		width:100%;
+		background-color: #6DB33F;
+		font-family: 'Josefin Sans';
+		color: #2C001C;
+		font-size: 1.3em;
+		line-height: 1.3;
+		padding-top: 1.3em;
+}
+
+.fontForma {
+	font-family: 'Josefin Sans';
+	color: #33302D;
+
+	margin-top: 100px;
+	font-size: 1.3em;
+	line-height: 1.1;
+
+}
+
+.input {
+	width: 80%;
+}
+
+.forget {
+	text-decoration: underline;
+}
+
+
+.main-nav-form {
+
+	color: #FFFAF0;
+background-color: #33302D;
+}
+
+
+.main-nav-form a {
+	color: #FFFAF0;
+background-color: #33302D;
+}
+
+
+
+.proizvod {
+	
+}
+
+.slikaPr {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.opisPr {
+	font-family: 'Josefin Sans';
+	margin-top: 60px;
+	margin-bottom: 10px;
+	line-height: 1.5;
+	font-size: 1.1em;
+}
+
+
+.pretraga {
+	float: left;
+	margin-top: 14px;
+	width: 100px;
+	height: 30px;
+	border: 2px solid #33302D;
+}
+
+#form .pure-checkbox  input[type="checkbox"] {
+	background-color: red;
+}
+
+#cb input[type="checkbox"]{
+	background-color:red;}
